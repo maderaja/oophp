@@ -3,7 +3,6 @@
 // Komik
 // Game
 
-use Produk as GlobalProduk;
 
 class Produk
 {

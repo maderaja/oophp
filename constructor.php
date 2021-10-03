@@ -3,7 +3,6 @@
 // Komik
 // Game
 
-use Produk as GlobalProduk;
 
 class Produk
 {
@@ -29,7 +28,7 @@ class Produk
 
 $produk1 = new Produk("Naruto", "Masashi Kishimoto", "Shonen Jump", 30000);
 $produk2 = new Produk("Unchated", "Neil Drickmann", "Sony Computer", 250000);
-$produk3 = new GlobalProduk("Bazara");
+$produk3 = new Produk("Bazara");
 
 echo "Komik : " . $produk1->getLabel();
 echo "<br>";
